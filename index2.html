@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <!-- Font Awesome 6 Free -->
+  <!-- Font Awesome 6 Free  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <script>
@@ -342,7 +342,8 @@
         <i class="fa-solid fa-globe w-4 text-gold-400/60 text-xs"></i>Study Abroad
       </a>
       <a href="#blog" class="flex items-center gap-2 py-2.5 text-sm hover:text-gold-500 transition-colors border-b border-ink-100/50 dark:border-ink-700/50">
-        <i class="fa-solid fa-pen-nib w-4 text-gold-400/60 text-xs"></i>Blog
+        <!-- FIXED: fa-pen-nib (Pro) → fa-pen (Free) -->
+        <i class="fa-solid fa-pen w-4 text-gold-400/60 text-xs"></i>Blog
       </a>
       <a href="#contact" class="flex items-center gap-2 py-2.5 text-sm hover:text-gold-500 transition-colors border-b border-ink-100/50 dark:border-ink-700/50">
         <i class="fa-solid fa-envelope w-4 text-gold-400/60 text-xs"></i>Contact
@@ -440,8 +441,9 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         <!-- Education & Writing -->
+        <!-- FIXED: fa-book-open-reader (Pro) → fa-book-open (Free) -->
         <div class="card-lift reveal bg-white dark:bg-ink-800 rounded-2xl p-7 border border-ink-100 dark:border-ink-700 shadow-sm">
-          <div class="icon-box"><i class="fa-solid fa-book-open-reader"></i></div>
+          <div class="icon-box"><i class="fa-solid fa-book-open"></i></div>
           <h3 class="font-display text-xl font-bold mb-4">Education & Writing</h3>
           <ul class="space-y-2 text-sm text-ink-600 dark:text-cream-200/70">
             <li class="check-item"><i class="fa-solid fa-diamond check-icon"></i>Academic support</li>
@@ -454,8 +456,9 @@
         </div>
 
         <!-- Tutorials -->
+        <!-- FIXED: fa-chalkboard-user (Pro) → fa-chalkboard (Free) -->
         <div class="card-lift reveal bg-white dark:bg-ink-800 rounded-2xl p-7 border border-ink-100 dark:border-ink-700 shadow-sm">
-          <div class="icon-box"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <div class="icon-box"><i class="fa-solid fa-chalkboard"></i></div>
           <h3 class="font-display text-xl font-bold mb-4">Tutorials & Academic Support</h3>
           <ul class="space-y-2 text-sm text-ink-600 dark:text-cream-200/70">
             <li class="check-item"><i class="fa-solid fa-diamond check-icon"></i>One-on-one tutoring</li>
@@ -494,6 +497,7 @@
         </div>
 
         <!-- Exam Programs – wide card -->
+        <!-- FIXED: fa-flask-vial (Pro) → fa-flask (Free) -->
         <div class="card-lift reveal bg-gold-400 text-white rounded-2xl p-7 border border-gold-300 shadow-sm md:col-span-2">
           <div class="flex items-center gap-3 mb-4">
             <div class="w-12 h-12 rounded-xl bg-ink-900/10 flex items-center justify-center">
@@ -607,8 +611,9 @@
         </div>
 
         <!-- Audio & Video Transcription -->
+        <!-- FIXED: fa-microphone-lines (Pro) → fa-microphone (Free) -->
         <div class="card-lift reveal bg-white dark:bg-ink-800 rounded-2xl p-7 border border-ink-100 dark:border-ink-700 shadow-sm">
-          <div class="icon-box"><i class="fa-solid fa-microphone-lines"></i></div>
+          <div class="icon-box"><i class="fa-solid fa-microphone"></i></div>
           <h3 class="font-display text-xl font-bold mb-4">Audio & Video Transcription</h3>
           <ul class="space-y-2 text-sm text-ink-600 dark:text-cream-200/70">
             <li class="check-item"><i class="fa-solid fa-diamond check-icon"></i>Audio & video transcription</li>
@@ -621,8 +626,9 @@
         </div>
 
         <!-- Visual Communication Design -->
+        <!-- FIXED: fa-vector-square (Pro) → fa-shapes (Free) -->
         <div class="card-lift reveal bg-white dark:bg-ink-800 rounded-2xl p-7 border border-ink-100 dark:border-ink-700 shadow-sm">
-          <div class="icon-box"><i class="fa-solid fa-vector-square"></i></div>
+          <div class="icon-box"><i class="fa-solid fa-shapes"></i></div>
           <h3 class="font-display text-xl font-bold mb-4">Visual Communication Design</h3>
           <ul class="space-y-2 text-sm text-ink-600 dark:text-cream-200/70">
             <li class="check-item"><i class="fa-solid fa-diamond check-icon"></i>Infographics & data visualisation</li>
@@ -673,9 +679,10 @@
           <p class="text-sm text-ink-500 dark:text-cream-200/60 leading-relaxed">Tell us your goals. We listen carefully and understand your unique needs.</p>
         </div>
 
+        <!-- FIXED: fa-clipboard-list (Pro) → fa-list-check (Free) -->
         <div class="reveal card-lift bg-white dark:bg-ink-900 rounded-2xl p-8 border border-ink-100 dark:border-ink-700 shadow-sm relative overflow-hidden">
           <span class="step-num">02</span>
-          <div class="icon-box"><i class="fa-solid fa-clipboard-list"></i></div>
+          <div class="icon-box"><i class="fa-solid fa-list-check"></i></div>
           <h3 class="font-display text-lg font-bold mb-3">Personalised Plan</h3>
           <p class="text-sm text-ink-500 dark:text-cream-200/60 leading-relaxed">Receive a tailored roadmap built around your specific academic or publishing journey.</p>
         </div>
@@ -710,7 +717,8 @@
       <div class="reveal card-lift bg-ink-900 dark:bg-ink-800 text-cream-50 rounded-2xl p-9 border border-ink-700 relative overflow-hidden group">
         <div class="absolute inset-0 bg-gradient-to-br from-gold-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
         <div class="relative z-10">
-          <span class="tag px-3 py-1 bg-gold-400/20 text-gold-400 rounded-full flex items-center gap-1.5 w-fit"><i class="fa-solid fa-flask-vial text-xs"></i>Examinations</span>
+          <!-- FIXED: fa-flask-vial (Pro) → fa-flask (Free) -->
+          <span class="tag px-3 py-1 bg-gold-400/20 text-gold-400 rounded-full flex items-center gap-1.5 w-fit"><i class="fa-solid fa-flask text-xs"></i>Examinations</span>
           <h3 class="font-display text-3xl font-bold mt-4 mb-3">Examination Success Program</h3>
           <p class="text-cream-200/60 text-sm mb-5">IELTS · TOEFL · SAT · WAEC · NECO · CELPIP · JAMB and more</p>
           <a href="#contact" class="inline-flex items-center gap-2 text-gold-400 text-sm font-semibold hover:gap-4 transition-all">
@@ -734,7 +742,8 @@
       <div class="reveal card-lift bg-white dark:bg-ink-800 rounded-2xl p-9 border border-ink-100 dark:border-ink-700 relative overflow-hidden group">
         <div class="absolute inset-0 bg-gradient-to-br from-gold-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
         <div class="relative z-10">
-          <span class="tag px-3 py-1 bg-gold-400/20 text-gold-600 dark:text-gold-400 rounded-full flex items-center gap-1.5 w-fit"><i class="fa-solid fa-pen-nib text-xs"></i>Writing</span>
+          <!-- FIXED: fa-pen-nib (Pro) → fa-pen (Free) -->
+          <span class="tag px-3 py-1 bg-gold-400/20 text-gold-600 dark:text-gold-400 rounded-full flex items-center gap-1.5 w-fit"><i class="fa-solid fa-pen text-xs"></i>Writing</span>
           <h3 class="font-display text-3xl font-bold mt-4 mb-3">Writing Mastery Program</h3>
           <p class="text-ink-500 dark:text-cream-200/60 text-sm mb-5">From academic essays to compelling personal statements.</p>
           <a href="#contact" class="inline-flex items-center gap-2 text-gold-500 text-sm font-semibold hover:gap-4 transition-all">
@@ -977,6 +986,7 @@
 
       <div class="reveal card-lift bg-white dark:bg-ink-800 rounded-2xl p-6 border border-ink-100 dark:border-ink-700 shadow-sm cursor-pointer group">
         <div class="flex items-center justify-between mb-4">
+          <!-- FIXED: fa-pen-fancy used here is actually Free in 6.x — kept as-is -->
           <span class="tag px-2.5 py-1 bg-gold-400/15 text-gold-600 dark:text-gold-400 rounded-full text-xs flex items-center gap-1"><i class="fa-solid fa-pen-fancy text-xs"></i>Writing</span>
           <span class="text-xs text-ink-400 dark:text-cream-200/40">6 min read</span>
         </div>
